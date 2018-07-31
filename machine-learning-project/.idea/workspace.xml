@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9464b735-a2ad-49cb-8e3c-3b50b095b414" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/NaiveBayes.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/NaiveBayes.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decision_tree/dt_author_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/decision_tree/dt_author_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/class_viz.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/naive_bayes/nb_author_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/naive_bayes/nb_author_id.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/svm/svm_author_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm/svm_author_id.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/email_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/email_preprocess.py" afterDir="false" />
@@ -18,58 +20,50 @@
     <session id="1156481898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1088" />
-          <entry key="py" value="1202" />
+          <entry key="md" value="1623" />
+          <entry key="py" value="1377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1088" />
-          <entry key="Python" value="1202" />
+          <entry key="Markdown" value="1623" />
+          <entry key="Python" value="1377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="5" />
+          <entry key="md" value="3" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="Python" value="5" />
+          <entry key="Markdown" value="3" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/svm/svm_author_id.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding>
-                <element signature="e#212#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="363">
-                <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+              <first_editor relative-caret-position="287">
+                <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,10 +71,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#234#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/email_preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="203">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="53" />
               <folding>
                 <element signature="e#19#32#0" expanded="true" />
               </folding>
@@ -109,9 +115,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/images/class_viz.py" />
+        <option value="$PROJECT_DIR$/svm/svm_author_id.py" />
         <option value="$PROJECT_DIR$/naive_bayes/nb_author_id.py" />
         <option value="$PROJECT_DIR$/tools/email_preprocess.py" />
-        <option value="$PROJECT_DIR$/svm/svm_author_id.py" />
+        <option value="$PROJECT_DIR$/decision_tree/dt_author_id.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -130,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,27 +147,13 @@
             <path>
               <item name="machine-learning-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine-learning-project" type="462c0819:PsiDirectoryNode" />
-              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine-learning-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning-project" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine-learning-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning-project" type="462c0819:PsiDirectoryNode" />
-              <item name="naive_bayes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="machine-learning-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning-project" type="462c0819:PsiDirectoryNode" />
-              <item name="svm" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,7 +172,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.svm_author_id">
+  <component name="RunManager" selected="Python.dt_author_id">
+    <configuration name="dt_author_id" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine-learning-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decision_tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decision_tree/dt_author_id.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="nb_author_id" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machine-learning-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,11 +239,13 @@
     <list>
       <item itemvalue="Python.nb_author_id" />
       <item itemvalue="Python.svm_author_id" />
+      <item itemvalue="Python.dt_author_id" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.svm_author_id" />
+        <item itemvalue="Python.dt_author_id" />
         <item itemvalue="Python.nb_author_id" />
+        <item itemvalue="Python.svm_author_id" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +267,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.2496474" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2496474" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50070524" side_tool="true" weight="0.32884097" />
@@ -260,7 +275,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4992948" visible="true" weight="0.3328841" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4992948" visible="true" weight="0.4272237" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -289,16 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/naive_bayes/nb_author_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#247#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/SVM_10.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -316,22 +321,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/naive_bayes/nb_author_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm/svm_author_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="e#212#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/email_preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="203">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="53" />
           <folding>
             <element signature="e#19#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_author_id.py">
+    <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state relative-caret-position="275">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#212#222#0" expanded="true" />
+            <element signature="e#234#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -339,8 +361,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <first_editor relative-caret-position="287">
+            <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

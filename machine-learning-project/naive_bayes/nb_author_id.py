@@ -13,6 +13,7 @@
 import sys
 from time import time
 from sklearn.naive_bayes import GaussianNB
+
 sys.path.append("/Users/Focus/Documents/GitHub/udacity/machine-learning-project/tools/")
 from email_preprocess import preprocess
 

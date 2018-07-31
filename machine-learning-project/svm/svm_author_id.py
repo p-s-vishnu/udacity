@@ -24,8 +24,8 @@ features_train, features_test, labels_train, labels_test = preprocess()
 # your code goes here ###
 clf = svm.SVC(C=10000, kernel='rbf')
 # Slicing training set
-# features_train = features_train[:len(features_train) / 100]
-# labels_train = labels_train[:len(labels_train) / 100]
+features_train = features_train[:len(features_train) / 100]
+labels_train = labels_train[:len(labels_train) / 100]
 
 t0 = time()
 clf.fit(features_train, labels_train)
