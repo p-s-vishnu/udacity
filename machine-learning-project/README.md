@@ -75,6 +75,11 @@ Here sklearn.feature_selection.SelectPercentile's parameter(percentile) can be m
 
 ### Algorithm 4 : KNN
 
+*   Input of terrain  data set
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/input.PNG)
+*   parameter, n_neighbors=3
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/KNN_output.PNG)
+
 ### Algorithm 5 : Adaboost
 
 ### Algorithm 6 : Random forest   
