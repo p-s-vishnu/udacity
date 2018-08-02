@@ -24,12 +24,11 @@ plt.scatter(grade_slow, bumpy_slow, color = "r", label="slow")
 plt.legend()
 plt.xlabel("bumpiness")
 plt.ylabel("grade")
-#plt.show()
+plt.show()
 ################################################################################
 
 
-### your code here!  name your classifier object clf if you want the 
-### visualization code (prettyPicture) to show you the decision boundary
+# visualization code (prettyPicture) to show you the decision boundary
 
 clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(features_train, labels_train)

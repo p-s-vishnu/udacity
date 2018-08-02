@@ -76,10 +76,19 @@ Here sklearn.feature_selection.SelectPercentile's parameter(percentile) can be m
 ### Algorithm 4 : KNN
 
 *   Input of terrain  data set
+
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/input.PNG)
 *   parameter, n_neighbors=3
+
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/KNN_output.PNG)
+*   Accuracy with 3 n_neighbour is 93.6 %
 
 ### Algorithm 5 : Adaboost
+*   Accuracy : 92.4 %
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/Adaboost_output.PNG)
 
 ### Algorithm 6 : Random forest   
+*   Accuracy :  %
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/.PNG)
