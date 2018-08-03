@@ -71,24 +71,33 @@ Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using
 * Number of features = 3785
 * In order to reduce the complexity of Tree, the number of features can be modified(feature selection).
 Here sklearn.feature_selection.SelectPercentile's parameter(percentile) can be modified to reduce features.
-* Accuracy of decision tree while using only 1% of available features = 96%
+* Accuracy of decision tree while using only 1% of available features = 97%
 
 ### Algorithm 4 : KNN
 
 *   Input of terrain  data set
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/input.PNG)
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/input.png)
 *   parameter, n_neighbors=3
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/KNN_output.PNG)
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/KNN_output.png)
 *   Accuracy with 3 n_neighbour is 93.6 %
 
 ### Algorithm 5 : Adaboost
 *   Accuracy : 92.4 %
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/Adaboost_output.PNG)
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/Adaboost_output.png)
 
-### Algorithm 6 : Random forest   
-*   Accuracy :  %
+### Algorithm 6 : Random forest 
+**Advantage** :
+*   Won't overfit the model.
+*   Handles data with missing data and maintains accuracy 
+*   Large data set with higher dimensionality handled well
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/.PNG)
+**Disadvantage** :
+*   Not high accuracy for Regression problems.
+*   Little control over what the model does.
+
+*   Accuracy : 0.936 %
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/random_forest_output.png)
