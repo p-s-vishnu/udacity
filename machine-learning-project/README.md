@@ -17,8 +17,6 @@ Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using
 
 **Disadvantage** : It makes a very strong assumption on the shape of your data distribution, i.e. any two features are independent given the output class. E.g In a sentence, the algorithm doesn't consider the sequence of words, instead it focuses only on the number of words that appear in the sentence.
 
----
-
 ### Algorithm 2 : SVM (Support Vector Machine)
 ##### Speed - Accuracy tradeoff 
 * SVM is MUCH slower to train and use for predicting
@@ -60,8 +58,6 @@ Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using
 - Low performance in large data set
 - If the data is having more noise, Naive Bayes has the upper hand
 
----
-
 ### Algorithm 3 : Decision Trees
 
 * min_samples_split = 40
@@ -98,6 +94,19 @@ Here sklearn.feature_selection.SelectPercentile's parameter(percentile) can be m
 *   Not high accuracy for Regression problems.
 *   Little control over what the model does.
 
-*   Accuracy : 0.936 %
+*   Accuracy : 93.6 %
 
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/random_forest_output.png)
+
+***
+    
+### Enron Dataset
+ * Analysis 
+ 
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_analysis.PNG)
+    
+    * Not every POI has an entry in the dataset (e.g. Michael Krautz)
+    * That’s because the dataset was created using the financial data you can find in final_project/enron61702insiderpay.pdf, which is missing some POI’s (those absences propagated through to the final dataset)
+    * On the other hand, for many of these “missing” POI’s, we do have emails
+    * If you added in, say, 10 more data points which were all POI’s, and put “NaN” for the total payments for those folks, the numbers you just calculated would change
+    * But adding in the new POI’s in this example, none of whom we have financial information for, has introduced a subtle problem, that our lack of financial information about them can be picked up by an algorithm as a clue that they’re POIs 
