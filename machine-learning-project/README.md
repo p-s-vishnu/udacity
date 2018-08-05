@@ -10,6 +10,21 @@ In order to change test _size go to *'/machine-learning-project/tools/email_prep
 
 Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using test_size *0.2*. In below screenshots, no. of Chris & Sara's training emails are prior to slicing.
 
+***
+    
+### Enron Data set
+ * Analysis 
+ 
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_analysis.PNG)
+    
+    * Not every POI has an entry in the dataset (e.g. Michael Krautz)
+    * That’s because the dataset was created using the financial data you can find in final_project/enron61702insiderpay.pdf, which is missing some POI’s (those absences propagated through to the final dataset)
+    * On the other hand, for many of these “missing” POI’s, we do have emails
+    * If you added in, say, 10 more data points which were all POI’s, and put “NaN” for the total payments for those folks, the numbers you just calculated would change
+    * But adding in the new POI’s in this example, none of whom we have financial information for, has introduced a subtle problem, that our lack of financial information about them can be picked up by an algorithm as a clue that they’re POIs
+
+*** 
+
 ### Supervised Classification Algorithms
 ### Algorithm 1 : Naive Bayes
 
@@ -99,14 +114,39 @@ Here sklearn.feature_selection.SelectPercentile's parameter(percentile) can be m
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/random_forest_output.png)
 
 ***
-    
-### Enron Dataset
- * Analysis 
+### Supervised Regression Algorithms
  
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_analysis.PNG)
-    
-    * Not every POI has an entry in the dataset (e.g. Michael Krautz)
-    * That’s because the dataset was created using the financial data you can find in final_project/enron61702insiderpay.pdf, which is missing some POI’s (those absences propagated through to the final dataset)
-    * On the other hand, for many of these “missing” POI’s, we do have emails
-    * If you added in, say, 10 more data points which were all POI’s, and put “NaN” for the total payments for those folks, the numbers you just calculated would change
-    * But adding in the new POI’s in this example, none of whom we have financial information for, has introduced a subtle problem, that our lack of financial information about them can be picked up by an algorithm as a clue that they’re POIs 
+**Discrete v/s continuous classifier**
+*   The definition of discrete is: individually separate and distinct. eg : Time is continuous.
+*   Sometimes the way we define the problem makes it discrete or continuous. 
+E.g : Weather is the given amount of light that reaches the ground in a period of time. But if we consider 
+whether the weather is sunny or rainy, it can be defined as a discrete problem.
+* Continuous will have sort of ordering.
+
+### Algorithm 1 : Linear regression
+
+* Evaluation of Line can be done through Error = Actual value - Predicted value
+* A good fit to minimize, 
+    * Sum of Absolute value of errors 
+    * Sum of square of error
+* Some algorithms to minimize sum of square of error
+    * Ordinary least squares (Used in sklearn)
+    * Gradient descent  
+* Why sum of square of error considered and not Absolute value?
+   
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/min_sum_sq_errors.PNG)
+* Sum of square error is not perfect, even though the regression line might be doing a good job but as the number of 
+data points increase the sum of square increases. Hence while comparing two similar distribution, the one with larger
+number of data points will be considered worse.
+
+* R-squared error is not facing the above shortcoming, is very good *evaluation metric*
+
+* R-square can be described as "how much of my change in output(y) is explained by input(x)". Value range from 0 to 1.
+Capturing trend in in data. *Important* it is independent of the number of training point. 
+
+* Back to Enron Dataset, predicting bonus w.r.t salary.
+ 
+* The score was better when tried to predict bonus w.r.t long term incentive, hence that is a strong feature
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/regression_input.PNG)
+
