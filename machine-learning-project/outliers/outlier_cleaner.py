@@ -10,11 +10,14 @@ def outlierCleaner(predictions, ages, net_worths):
         Return a list of tuples named cleaned_data where 
         each tuple is of the form (age, net_worth, error).
     """
-    
+
     cleaned_data = []
 
-    ### your code goes here
+    residual_errors = net_worths - predictions
 
-    
+    for age, net_worth, error in zip(ages, net_worths, residual_errors):
+        cleaned_data.append([age, net_worth, error])
+    cleaned_data.sort(key=lambda x: x[2], reverse=True)
+    cleaned_data = cleaned_data[0:81]
+    print 'No of cleaned elements ', len(cleaned_data)
     return cleaned_data
-

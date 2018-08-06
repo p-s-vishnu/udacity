@@ -123,7 +123,7 @@ E.g : Weather is the given amount of light that reaches the ground in a period o
 whether the weather is sunny or rainy, it can be defined as a discrete problem.
 * Continuous will have sort of ordering.
 
-### Algorithm 1 : Linear regression
+### Algorithm 1 : Linear regression (Univariate and multivariate)
 
 * Evaluation of Line can be done through Error = Actual value - Predicted value
 * A good fit to minimize, 
@@ -144,9 +144,41 @@ number of data points will be considered worse.
 * R-square can be described as "how much of my change in output(y) is explained by input(x)". Value range from 0 to 1.
 Capturing trend in in data. *Important* it is independent of the number of training point. 
 
-* Back to Enron Dataset, predicting bonus w.r.t salary.
+* Back to Enron Data set, predicting bonus w.r.t salary.
  
 * The score was better when tried to predict bonus w.r.t long term incentive, hence that is a strong feature
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/regression_input.PNG)
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/regression_input.png)
 
+***
+
+### Outliers
+* What causes outliers ?
+    * Sensor malfunction
+    * Incorrect data entry
+    * Freak events
+    
+* Outlier detection and removal
+    1. Initially train the model.
+    2. Remove the point with larger Residual error (10% of data points)
+    3. Retrain, repeat step ii and iii 
+
+* Outlier detection using Residual error, residual error is the error the data point has once you fit the best possible line.
+
+* Before removing outlier (age vs the net worth of person)
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/age_networth_with_outlier.png)
+* After removing 10% of data points (points with top 10% Residual error). Remaining 81 data points. 
+    
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/age_networth_without_outlier.png)
+* Observations
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/outlier_cleaner.PNG)
+    * There was a spreadsheet quirk in the data set, TOTAL was considered as a KEY with Max Salary=26704229
+    
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_outlier_total.png)
+    * After removing the key 'TOTAL'
+    
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_outlier_removed.png)
+   
+   

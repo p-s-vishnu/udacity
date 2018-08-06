@@ -21,13 +21,14 @@ net_worths = pickle.load( open("practice_outliers_net_worths.pkl", "r") )
 ages       = numpy.reshape( numpy.array(ages), (len(ages), 1))
 net_worths = numpy.reshape( numpy.array(net_worths), (len(net_worths), 1))
 from sklearn.cross_validation import train_test_split
+from sklearn.linear_model import LinearRegression
 ages_train, ages_test, net_worths_train, net_worths_test = train_test_split(ages, net_worths, test_size=0.1, random_state=42)
 
 ### fill in a regression here!  Name the regression object reg so that
 ### the plotting code below works, and you can see what your regression looks like
 
-
-
+reg = LinearRegression()
+reg.fit(ages_train, net_worths_train)
 
 
 
@@ -43,6 +44,8 @@ except NameError:
 plt.scatter(ages, net_worths)
 plt.show()
 
+print 'Slope of uncleaned regression line :', reg.coef_
+print 'Score of with above line on test data :', reg.score(ages_test, net_worths_test)
 
 ### identify and remove the most outlier-y points
 cleaned_data = []
@@ -78,6 +81,8 @@ if len(cleaned_data) > 0:
     plt.ylabel("net worths")
     plt.show()
 
+    print '\nSlope of cleaned regression line :', reg.coef_
+    print 'Score of with above line on test data :', reg.score(ages_test, net_worths_test)
 
 else:
     print "outlierCleaner() is returning an empty list, no refitting to be done"
