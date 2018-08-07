@@ -123,7 +123,7 @@ E.g : Weather is the given amount of light that reaches the ground in a period o
 whether the weather is sunny or rainy, it can be defined as a discrete problem.
 * Continuous will have sort of ordering.
 
-### Algorithm 1 : Linear regression (Univariate and multivariate)
+### Algorithm 1 : Linear regression (Uni variate and multivariate)
 
 * Evaluation of Line can be done through Error = Actual value - Predicted value
 * A good fit to minimize, 
@@ -181,4 +181,22 @@ Capturing trend in in data. *Important* it is independent of the number of train
     
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_outlier_removed.png)
    
-   
+***
+
+### Unsupervised Learning Algorithms
+### Clustering (K means clustering)
+*   Algorithm
+    1. Assign cluster centers
+    2. Optimize cluster centers (until no change)
+* The problem with k-means is the final cluster is proportional to the initial random point.
+* Some useful parameters - n_clusters, n_init (number of random initialization to avoid the above problem) and max_iter.
+* This is a local hill climbing algorithm, hence it is possible to get stuck in a local minimum. 
+* Enron dataset, Initial input
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_means_input.png)
+* Clusters with 2 features, 'salary' and 'exercised_stock_options'
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_mean_2_features.png)
+* Clustering with an additional feature 'total_payments'
+
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_means_3_features.png)
