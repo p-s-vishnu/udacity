@@ -73,7 +73,7 @@ plt.show()
 from sklearn.cluster import KMeans
 clusters = KMeans(n_clusters=2).fit(finance_features)
 pred = clusters.predict(finance_features)
-
+print clusters.labels_
 ### rename the "name" parameter when you change the number of features
 ### so that the figure gets saved to a different file
 try:

@@ -180,23 +180,31 @@ Capturing trend in in data. *Important* it is independent of the number of train
     * After removing the key 'TOTAL'
     
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_outlier_removed.png)
-   
+
 ***
 
 ### Unsupervised Learning Algorithms
-### Clustering (K means clustering)
+### Clustering (K means clustering only discussed)
 *   Algorithm
     1. Assign cluster centers
     2. Optimize cluster centers (until no change)
 * The problem with k-means is the final cluster is proportional to the initial random point.
 * Some useful parameters - n_clusters, n_init (number of random initialization to avoid the above problem) and max_iter.
-* This is a local hill climbing algorithm, hence it is possible to get stuck in a local minimum. 
+* This is a local hill climbing algorithm, hence it is possible to get stuck in a local minimum.
+* Other types of clustering - Hierarchical clustering and Probabilistic clustering (Fuzzy k means)  
 * Enron dataset, Initial input
 
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_means_input.png)
 * Clusters with 2 features, 'salary' and 'exercised_stock_options'
 
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_mean_2_features.png)
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_means_2_features.png)
 * Clustering with an additional feature 'total_payments'
 
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/k_means_3_features.png)
+    
+### Feature scaling
+
+* It is the method of normalizing features, so that one or few features may not dominate the result. The features will still
+ represent their original nature but now be expressed in a much smaller range. Below is a min-max rescaler
+ 
+    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/featurescale_formula.png)
