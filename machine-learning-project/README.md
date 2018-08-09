@@ -208,3 +208,6 @@ Capturing trend in in data. *Important* it is independent of the number of train
  represent their original nature but now be expressed in a much smaller range. Below is a min-max rescaler
  
     ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/featurescale_formula.png)
+* Out of decision trees, svm with rbf kernel, linear regression and k-means which of these will be affected by *feature scaling*?
+    
+    Ans : svm with rbf and k-means.    

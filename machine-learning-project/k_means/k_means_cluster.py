@@ -49,6 +49,7 @@ for key in data_dict:
         sal_list.append(d)
 
 print min(sal_list), max(sal_list)
+
 ### the input features we want to use 
 ### can be any key in the person-level dictionary (salary, director_fees, etc.) 
 feature_1 = "salary"
