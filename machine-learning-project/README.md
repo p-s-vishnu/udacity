@@ -15,10 +15,10 @@ Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using
 ### Enron Data set
  * Analysis 
  
-    ![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/enron_analysis.PNG)
+    ![Output](https://github.com/p-s-vishnu/udacity/blob/master/machine-learning-project/images/enron_analysis.PNG)
     
     * Not every POI has an entry in the dataset (e.g. Michael Krautz)
-    * That’s because the dataset was created using the financial data you can find in final_project/enron61702insiderpay.pdf, which is missing some POI’s (those absences propagated through to the final dataset)
+    * That’s because the dataset was created using the financial data you can find in final_project/enron61702insiderpay.pdf, which is missing some POI’s (that absence propagated to the final dataset)
     * On the other hand, for many of these “missing” POI’s, we do have emails
     * If you added in, say, 10 more data points which were all POI’s, and put “NaN” for the total payments for those folks, the numbers you just calculated would change
     * But adding in the new POI’s in this example, none of whom we have financial information for, has introduced a subtle problem, that our lack of financial information about them can be picked up by an algorithm as a clue that they’re POIs
@@ -26,9 +26,11 @@ Given test_size = 0.1, Current test_size = 0.2. Most of the time I will be using
 *** 
 
 ### Supervised Classification Algorithms
+The below observations are part of mini-project, email author identifier 
+
 ### Algorithm 1 : Naive Bayes
 
-![Output](https://github.com/qwertypsv/udacity/blob/master/machine-learning-project/images/NaiveBayes.PNG)
+![Output](https://github.com/p-s-vishnu/udacity/blob/master/machine-learning-project/images/NaiveBayes.PNG)
 
 **Disadvantage** : It makes a very strong assumption on the shape of your data distribution, i.e. any two features are independent given the output class. E.g In a sentence, the algorithm doesn't consider the sequence of words, instead it focuses only on the number of words that appear in the sentence.
 
