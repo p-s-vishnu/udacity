@@ -42,9 +42,19 @@ w2 = Vector((-4.496, -8.755, 7.103))
 # Angle in radians
 v = Vector((3.183, -7.627))
 w = Vector((-2.668, 5.319))
-print(v.angle_in_rad(w))
+# print(v.angle_in_rad(w))
 
 # Angle in degree
 v = Vector((7.35, 0.221, 5.188))
 w = Vector((2.751, 8.259, 3.985))
-print(v.angle_in_degree(w))
+# print(v.angle_in_degree(w))
+
+# Orthogonality
+v = Vector((-7.579,-7.88))
+w = Vector((0, 0))
+# print(v.is_orthogonal(w))
+
+#parallel
+v = Vector((-7.579,-7.88))
+w = Vector((1, 0))
+print(v.is_parallel(w))
