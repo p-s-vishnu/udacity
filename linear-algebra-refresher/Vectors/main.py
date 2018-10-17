@@ -54,7 +54,17 @@ v = Vector((-7.579,-7.88))
 w = Vector((0, 0))
 # print(v.is_orthogonal(w))
 
-#parallel
+# Parallel
 v = Vector((-7.579,-7.88))
 w = Vector((1, 0))
-print(v.is_parallel(w))
+# print(v.is_parallel(w))
+
+# Projection
+v = Vector((3.039, 1.879))
+b = Vector((0.825, 2.036))
+# print(v.projection(b))
+
+# Perpendicular
+v = Vector([-9.88, -3.264, -8.159])
+b = Vector([-2.155, -9.353, -9.473])
+print(v.perpendicular(b))

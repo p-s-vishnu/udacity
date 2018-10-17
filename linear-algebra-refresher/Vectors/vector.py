@@ -27,15 +27,16 @@ class Vector(object):
 			zip(self.coordinates,new_vector.coordinates)]
 
 	def sub_vector(self, new_vector):
-		return [i-j for i,j in 
-			zip(self.coordinates,new_vector.coordinates)]
+		return Vector([i-j for i,j in 
+					zip(self.coordinates,new_vector.coordinates)])
 
 	def mul_vector(self, scalar):
-		return [ round(i*scalar, 3) for i in self.coordinates ]
+		return Vector([ i*scalar for i in self.coordinates ])
 
 	def magnitude(self):
 		return sqrt(sum([i**2 for i in self.coordinates]))
 
+	# Unit vector
 	def	normalization(self):
 		m = self.magnitude()
 		return self.mul_vector(1/m)
@@ -70,3 +71,22 @@ class Vector(object):
 
 	def is_zero(self):
 		return self.coordinates == 0
+
+	# Vector 		= Vprojection + Vperpendicular
+	# Projection 	= V . B_hat
+	def projection(self, b):
+		try:
+			u 		= b.normalization()
+			scalar	= self.dot_product(u)
+			return u.mul_vector(scalar)
+		except Exception as e:
+			raise e
+
+
+	# Vperpendicular= Vector - Vprojection
+	def perpendicular(self, b):
+		try:
+			v_proj = self.projection(b)
+			return self.sub_vector(v_proj)
+		except Exception as e:
+			raise e
