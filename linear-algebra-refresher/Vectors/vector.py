@@ -90,3 +90,17 @@ class Vector(object):
 			return self.sub_vector(v_proj)
 		except Exception as e:
 			raise e
+
+	# Cross product 
+	# Area of parallelogram = ||v||*||w|| sin(Theta)
+	# Verification of cross product, multiply each cross product with 
+	# each vectors, correct if result is zero
+	
+	def cross_product_3D(self, w):
+		z1	= self.coordinates[1]*w.coordinates[2] - self.coordinates[2]*w.coordinates[1]
+		z2	= self.coordinates[2]*w.coordinates[0] - self.coordinates[0]*w.coordinates[2]
+		z3	= self.coordinates[0]*w.coordinates[1] - self.coordinates[1]*w.coordinates[0]
+		return Vector((z1, z2, z3))
+
+	def area_of_parallelogram(self, b):
+		return self.cross_product_3D(b).magnitude()

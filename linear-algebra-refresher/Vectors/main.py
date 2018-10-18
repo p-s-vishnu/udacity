@@ -67,4 +67,10 @@ b = Vector((0.825, 2.036))
 # Perpendicular
 v = Vector([-9.88, -3.264, -8.159])
 b = Vector([-2.155, -9.353, -9.473])
-print(v.perpendicular(b))
+# print(v.perpendicular(b))
+
+# Cross product
+v = Vector([8.462, 7.893, -8.187])
+w = Vector([6.984, -5.975, 4.778])
+print(v.cross_product_3D(w))
+print(v.area_of_parallelogram(w))
