@@ -32,13 +32,13 @@ class Line(object):
         try:
             n = self.normal_vector
             c = self.constant_term
-            basepoint_coords = ['0']*self.dimension
+            basepoint_coords    = ['0']*self.dimension
 
-            initial_index = Line.first_nonzero_index(n)
+            initial_index       = Line.first_nonzero_index(n)
             initial_coefficient = n[initial_index]
 
             basepoint_coords[initial_index] = c/initial_coefficient
-            self.basepoint = Vector(basepoint_coords)
+            self.basepoint      = Vector(basepoint_coords)
 
         except Exception as e:
             if str(e) == Line.NO_NONZERO_ELTS_FOUND_MSG:
@@ -91,6 +91,41 @@ class Line(object):
         output += ' = {}'.format(constant)
 
         return output
+
+    def __eq__(self, w):
+
+        if not self.is_parallel_to(w):
+            return False
+
+        x0          = self.basepoint
+        y0          = w.basepoint
+        diff_vec    = x0.sub_vector(y0)
+
+        return diff_vec.is_orthogonal(w)
+
+    def is_parallel_to(self, w):
+        n1 = self.normal_vector
+        n2 = w.normal_vector
+
+        return n1.is_parallel(n2)
+
+    def intersection_with(self, w):
+        try:
+            A, B    = self.normal_vector.coordinates
+            C, D    = w.normal_vector.coordinates
+            k1      = self.constant_term
+            k2      = w.constant_term
+
+            x_num   = D*k1  - B*k2
+            y_num   = -C*k1 + A*k2
+            denom   = Decimal('1')/(A*D - B*C)
+
+            return Vector([x_num, y_num]).mul_vector(denom)
+        except ZeroDivisionError:
+            if self == w:
+                return self
+            else:
+                return None
 
 
     @staticmethod
