@@ -5,16 +5,12 @@ from vector import Vector
 getcontext().prec = 30
 
 
-# Ax + By = k1
-# Cx + Dy = k2
-# x = (D.k1 - B.k2)/(A.D - B.C)
-# y = (-C.k1 - A.k2)/(A.D - B.C)
-class Line(object):
+class Plane(object):
 
     NO_NONZERO_ELTS_FOUND_MSG = 'No nonzero elements found'
 
     def __init__(self, normal_vector=None, constant_term=None):
-        self.dimension = 2
+        self.dimension = 3
 
         if not normal_vector:
             all_zeros = ['0']*self.dimension
@@ -32,20 +28,36 @@ class Line(object):
         try:
             n = self.normal_vector
             c = self.constant_term
-            basepoint_coords    = ['0']*self.dimension
+            basepoint_coords = ['0']*self.dimension
 
-            initial_index       = Line.first_nonzero_index(n)
+            initial_index = Plane.first_nonzero_index(n)
             initial_coefficient = n[initial_index]
 
             basepoint_coords[initial_index] = c/initial_coefficient
-            self.basepoint      = Vector(basepoint_coords)
+            self.basepoint = Vector(basepoint_coords)
 
         except Exception as e:
-            if str(e) == Line.NO_NONZERO_ELTS_FOUND_MSG:
+            if str(e) == Plane.NO_NONZERO_ELTS_FOUND_MSG:
                 self.basepoint = None
             else:
                 raise e
 
+    # Computing if two planes are equal
+    # the vector connecting one point on each plane is orthogonal
+    # to the planes normal vectors
+    def __eq__(self, w):
+        a           = self.normal_vector
+        b           = w.normal_vector
+        diff_line   = a.sub_vector(b)
+
+        return not self.is_parallel_to(w) and diff_line.is_orthogonal(self)
+
+    # Function to determine if two planes are parallel
+    def is_parallel_to(self, w):
+        n1   = self.normal_vector
+        n2   = w.normal_vector
+
+        return n1.is_parallel(n2)
 
     def __str__(self):
 
@@ -74,7 +86,7 @@ class Line(object):
         n = self.normal_vector
 
         try:
-            initial_index = Line.first_nonzero_index(n)
+            initial_index = Plane.first_nonzero_index(n)
             terms = [write_coefficient(n[i], is_initial_term=(i==initial_index)) + 'x_{}'.format(i+1)
                      for i in range(self.dimension) if round(n[i], num_decimal_places) != 0]
             output = ' '.join(terms)
@@ -92,47 +104,13 @@ class Line(object):
 
         return output
 
-    def __eq__(self, w):
 
-        if not self.is_parallel_to(w):
-            return False
-
-        x0          = self.basepoint
-        y0          = w.basepoint
-        diff_vec    = x0.sub_vector(y0)
-
-        return diff_vec.is_orthogonal(w)
-
-    def is_parallel_to(self, w):
-        n1 = self.normal_vector
-        n2 = w.normal_vector
-
-        return n1.is_parallel(n2)
-
-    def intersection_with(self, w):
-        try:
-            A, B    = self.normal_vector.coordinates
-            C, D    = w.normal_vector.coordinates
-            k1      = self.constant_term
-            k2      = w.constant_term
-
-            x_num   = D*k1  - B*k2
-            y_num   = -C*k1 + A*k2
-            denom   = Decimal('1')/(A*D - B*C)
-
-            return Vector([x_num, y_num]).mul_vector(denom)
-        except ZeroDivisionError:
-            if self == w:
-                return self
-            else:
-                return None
-                
     @staticmethod
     def first_nonzero_index(iterable):
         for k, item in enumerate(iterable):
             if not MyDecimal(item).is_near_zero():
                 return k
-        raise Exception(Line.NO_NONZERO_ELTS_FOUND_MSG)
+        raise Exception(Plane.NO_NONZERO_ELTS_FOUND_MSG)
 
 
 class MyDecimal(Decimal):

@@ -50,6 +50,7 @@ class Vector(object):
 		dot_value	= self.dot_product(new_vector)
 		mag_v		= self.magnitude()
 		mag_w		= new_vector.magnitude()
+
 		# arc cosine - acos
 		if self.is_zero() or new_vector.is_zero():
 			return 0
@@ -69,6 +70,7 @@ class Vector(object):
 
 		return self.is_zero() or new_vector.is_zero() or angle_0 or angle_180
 
+	# A zero vector is both parallel and perpendicular to other vector
 	def is_zero(self):
 		return self.coordinates == 0
 

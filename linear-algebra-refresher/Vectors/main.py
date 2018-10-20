@@ -1,4 +1,5 @@
 from vector import Vector
+from plane import Plane
 
 #test equal
 test_vec		= Vector((1,2,3))
@@ -72,5 +73,11 @@ b = Vector([-2.155, -9.353, -9.473])
 # Cross product
 v = Vector([8.462, 7.893, -8.187])
 w = Vector([6.984, -5.975, 4.778])
-print(v.cross_product_3D(w))
-print(v.area_of_parallelogram(w))
+# print(v.cross_product_3D(w))
+# print(v.area_of_parallelogram(w))
+
+# Planes
+p1 = Plane(normal_vector=Vector((-0.412, 3.806, 0.728)), constant_term=-3.46)
+p2 = Plane(normal_vector=Vector((1.03, -9.515, -1.82)), constant_term=8.65)
+# print(p1 == p2)
+# print(p1.is_parallel_to(p2))
