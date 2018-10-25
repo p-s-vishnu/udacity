@@ -1,5 +1,6 @@
 from decimal import Decimal, getcontext
-
+import sys
+sys.path.append('D:/Github/udacity/linear-algebra-refresher/Vectors')
 from vector import Vector
 
 getcontext().prec = 30
