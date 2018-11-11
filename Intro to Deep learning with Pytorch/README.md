@@ -1,7 +1,7 @@
 # What you will learn
 
 ## Lesson 1: Intro to deep learning
-- [ ] Basic concepts of deep learning such as neural networks and gradient descent
+- [x] Basic concepts of deep learning such as neural networks and gradient descent
 - [ ] Implement a neural network in NumPy and train it using gradient descent
 - [ ] Build a neural network to predict student admissions
 
