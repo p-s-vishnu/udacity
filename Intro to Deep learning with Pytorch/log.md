@@ -15,8 +15,14 @@
 **Today's Progress**: Lesson 2, Completed 26/50 sections
 
 **Link of work**: [Gradient descent](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-12&until=2018-11-13)
-
+***
 ## Day 4:
 **Today's progress**: Lesson 2, Completed 36/50 
 
 **Link of work**: [Backpropagation](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-13&until=2018-11-14)
+
+***
+## Day 5:
+**Today's progress**: Lesson 4 topic 3/22 , Completed Lesson 2&3
+
+**Link of work**:[Intro to pytorch](https://github.com/p-s-vishnu/udacity/commit/cfa04ef8dc3f6ff5148de3dbdedef4ede2aae99f)
