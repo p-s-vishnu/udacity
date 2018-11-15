@@ -26,3 +26,11 @@
 **Today's progress**: Lesson 4 topic 3/22 , Completed Lesson 2&3
 
 **Link of work**:[Intro to pytorch](https://github.com/p-s-vishnu/udacity/commit/cfa04ef8dc3f6ff5148de3dbdedef4ede2aae99f)
+
+
+***
+## Day 6:
+
+**Today's progress**: Lesson 4 topic 6/22
+
+**Link of work**:[Multi layer n/ws solution and into to NN](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-15&until=2018-11-16)
