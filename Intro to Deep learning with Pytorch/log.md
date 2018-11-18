@@ -48,3 +48,10 @@
 **Today's progress**: Completed neural networks in PyTorch 
 
 **Link of work**: [Neural network](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-17&until=2018-11-18)
+
+***
+***
+## Day 9:
+**Today's progress**: Continuing the study of Training NN 
+
+**Link of work**: [Training NN](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-18&until=2018-11-19)
