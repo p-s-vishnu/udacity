@@ -34,3 +34,10 @@
 **Today's progress**: Lesson 4 topic 6/22
 
 **Link of work**: [Multi layer n/ws solution and into to NN](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-15&until=2018-11-16)
+
+***
+## Day 7:
+
+**Today's progress**: Revising till now, 
+
+**Link of work**: [Multilayer n/w solution](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-16&until=2018-11-17)
