@@ -50,8 +50,13 @@
 **Link of work**: [Neural network](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-17&until=2018-11-18)
 
 ***
-***
 ## Day 9:
 **Today's progress**: Continuing the study of Training NN 
 
 **Link of work**: [Training NN](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-18&until=2018-11-19)
+
+***
+## Day 10: 
+**Today's progress:** Lesson 4 Section 10/22
+
+**Link of work**: [Network architecture](https://github.com/p-s-vishnu/udacity/commit/f59ee9881137e865a053428c136d8b7e5475fa69)
