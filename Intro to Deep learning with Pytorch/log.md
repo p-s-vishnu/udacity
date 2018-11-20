@@ -60,3 +60,9 @@
 **Today's progress:** Lesson 4 Section 10/22
 
 **Link of work**: [Network architecture](https://github.com/p-s-vishnu/udacity/commit/f59ee9881137e865a053428c136d8b7e5475fa69)
+
+***
+## Day 11:
+**Today's progress:** Lesson 4 Section 12/22
+
+**Link of work**: [Complete neural architecture, Start MNIST](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-20&until=2018-11-21)
