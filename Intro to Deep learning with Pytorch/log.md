@@ -66,3 +66,10 @@
 **Today's progress:** Lesson 4 Section 12/22
 
 **Link of work**: [Complete neural architecture, Start MNIST](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-20&until=2018-11-21)
+
+***
+## Day 12:
+**Today's progress:* Lesson 4 Section 14/22
+
+**Link of work**: [Fashion MNIST model](https://github.com/p-s-vishnu/udacity/commit/47a2d668be7c272fee70fb092262732b51fb4de3)
+
