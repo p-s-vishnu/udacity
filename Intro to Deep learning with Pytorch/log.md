@@ -69,7 +69,13 @@
 
 ***
 ## Day 12:
-**Today's progress:* Lesson 4 Section 14/22
+**Today's progress:** Lesson 4 Section 14/22
 
 **Link of work**: [Fashion MNIST model](https://github.com/p-s-vishnu/udacity/commit/47a2d668be7c272fee70fb092262732b51fb4de3)
 
+***
+## Day 13:
+**Today's progress:** Lesson 4 Section 16/22
+
+**Link of work**: [Initialize inference, validations and dropout](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-22&until=2018-11-23)
+***
