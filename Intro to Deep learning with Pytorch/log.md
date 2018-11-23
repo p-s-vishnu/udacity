@@ -79,3 +79,7 @@
 
 **Link of work**: [Initialize inference, validations and dropout](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-22&until=2018-11-23)
 ***
+
+## Day 14:
+**Today's progress:** Lesson 4 Section 18/22
+Completed videos till Loading Image data
