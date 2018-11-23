@@ -1,6 +1,12 @@
 # What you will learn
 
-- Intro to Neural networks
+|Topics | Check your understanding | One page summary |
+---|---|---
+|1. Intro to Neural networks | [Test][1] | [Revise][2]
+
+[1]:https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Introduction%20to%20Neural%20Networks/topics.md
+[2]:
+
 - Introduction to pytorch
 - Convolutional neural networks
 - Style transfer
