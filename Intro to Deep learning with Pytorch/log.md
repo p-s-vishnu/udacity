@@ -81,5 +81,11 @@
 ***
 
 ## Day 14:
-**Today's progress:** Lesson 4 Section 18/22
+**Today's progress:** Lesson 4 Videos till Section 18/22
 Completed videos till Loading Image data
+
+***
+## Day 15:
+**Today's progress:** Coding complete for Inference, validation and Dropout
+
+**Link of work:** [Inference, validations and dropout](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-24&until=2018-11-25)
