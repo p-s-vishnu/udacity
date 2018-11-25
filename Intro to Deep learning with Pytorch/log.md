@@ -89,3 +89,10 @@ Completed videos till Loading Image data
 **Today's progress:** Coding complete for Inference, validation and Dropout
 
 **Link of work:** [Inference, validations and dropout](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-24&until=2018-11-25)
+
+***
+## Day 16:
+
+**Today's progress:** Lesson 4, Section 21/22
+
+**Link of work:** [Saving and loading models](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-25&until=2018-11-26)
