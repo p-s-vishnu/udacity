@@ -96,3 +96,9 @@ Completed videos till Loading Image data
 **Today's progress:** Lesson 4, Section 21/22
 
 **Link of work:** [Saving and loading models](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-11-25&until=2018-11-26)
+
+
+***
+## Day 17:
+
+**Today's progress:** Lesson 5, Section 5/43
