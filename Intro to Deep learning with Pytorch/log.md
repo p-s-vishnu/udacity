@@ -112,3 +112,7 @@ Completed videos till Loading Image data
 ## Day 19:
 
 **Today's progress:** Lesson 5, Section 12/43
+***
+## Day 20:
+
+**Today's progress:** Lesson 5, Section 14/43
