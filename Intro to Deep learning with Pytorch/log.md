@@ -120,3 +120,8 @@ Completed videos till Loading Image data
 ## Day 21:
 
 **Today's progress:** Lesson 5, Section 16/43
+***
+## Day 22: 
+
+**Today's progress:** Lesson 5, Section 18/ 45
+Completed MLP vs CNN and Local connectivity video.
