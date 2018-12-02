@@ -125,3 +125,9 @@ Completed videos till Loading Image data
 
 **Today's progress:** Lesson 5, Section 18/ 45
 Completed MLP vs CNN and Local connectivity video.
+
+***
+## Day 23: 
+
+**Today's progress:** Lesson 5, Section 20/ 45
+Completed till filters and edges
