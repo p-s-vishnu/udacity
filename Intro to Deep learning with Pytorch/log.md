@@ -131,3 +131,9 @@ Completed MLP vs CNN and Local connectivity video.
 
 **Today's progress:** Lesson 5, Section 20/ 45
 Completed till filters and edges
+
+***
+## Day 24: 
+
+**Today's progress:** Lesson 5, Section 22/ 45
+Completed Frequency in images and high pass filter
