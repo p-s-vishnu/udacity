@@ -145,6 +145,12 @@ Completed Frequency in images and high pass filter
 
 **Link of work:** [Commit](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-12-04&until=2018-12-05)
 
+***
 ## Day 26: 
 
 **Today's progress:** Lesson 5, Section 27/45
+
+***
+## Day 27: 
+
+**Today's progress:** Lesson 5, Section 30/45
