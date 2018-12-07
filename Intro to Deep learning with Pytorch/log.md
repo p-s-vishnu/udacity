@@ -154,3 +154,9 @@ Completed Frequency in images and high pass filter
 ## Day 27: 
 
 **Today's progress:** Lesson 5, Section 30/45
+
+***
+## Day 28:
+
+**Today's progress:** Lesson 5, Section 34/45
+Completed till feature vector
