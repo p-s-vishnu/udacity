@@ -160,3 +160,8 @@ Completed Frequency in images and high pass filter
 
 **Today's progress:** Lesson 5, Section 34/45
 Completed till feature vector
+
+***
+## Day 29:
+
+**Today's progress:** Lesson 5, Section 36/45
