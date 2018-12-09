@@ -165,3 +165,8 @@ Completed till feature vector
 ## Day 29:
 
 **Today's progress:** Lesson 5, Section 36/45
+
+***
+## Day 30:
+
+**Today's progress:** Lesson 5, Section 40/45
