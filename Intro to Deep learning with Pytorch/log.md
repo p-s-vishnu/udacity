@@ -123,50 +123,55 @@ Completed videos till Loading Image data
 ***
 ## Day 22: 
 
-**Today's progress:** Lesson 5, Section 18/ 45
+**Today's progress:** Lesson 5, Section 18/ 43
 Completed MLP vs CNN and Local connectivity video.
 
 ***
 ## Day 23: 
 
-**Today's progress:** Lesson 5, Section 20/ 45
+**Today's progress:** Lesson 5, Section 20/ 43
 Completed till filters and edges
 
 ***
 ## Day 24: 
 
-**Today's progress:** Lesson 5, Section 22/ 45
+**Today's progress:** Lesson 5, Section 22/ 43
 Completed Frequency in images and high pass filter
 
 ***
 ## Day 25: 
 
-**Today's progress:** Lesson 5, Section 25/45
+**Today's progress:** Lesson 5, Section 25/43
 
 **Link of work:** [Commit](https://github.com/p-s-vishnu/udacity/commits?author=p-s-vishnu&since=2018-12-04&until=2018-12-05)
 
 ***
 ## Day 26: 
 
-**Today's progress:** Lesson 5, Section 27/45
+**Today's progress:** Lesson 5, Section 27/43
 
 ***
 ## Day 27: 
 
-**Today's progress:** Lesson 5, Section 30/45
+**Today's progress:** Lesson 5, Section 30/43
 
 ***
 ## Day 28:
 
-**Today's progress:** Lesson 5, Section 34/45
+**Today's progress:** Lesson 5, Section 34/43
 Completed till feature vector
 
 ***
 ## Day 29:
 
-**Today's progress:** Lesson 5, Section 36/45
+**Today's progress:** Lesson 5, Section 36/43
 
 ***
 ## Day 30:
 
-**Today's progress:** Lesson 5, Section 40/45
+**Today's progress:** Lesson 5, Section 40/43
+
+***
+## Day 31:
+
+**Today's progress:** Lesson 5 videos completed
