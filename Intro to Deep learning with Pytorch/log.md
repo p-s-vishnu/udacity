@@ -175,3 +175,8 @@ Completed till feature vector
 ## Day 31:
 
 **Today's progress:** Lesson 5 videos completed
+
+***
+## Day 32:
+
+**Today's progress:** preparing notes for CNN
