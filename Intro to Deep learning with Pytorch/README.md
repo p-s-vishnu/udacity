@@ -1,15 +1,19 @@
 # What you will learn
 
-|Topics | Test your understanding | One page summary |
+|Topics | Test your understanding | Notes |
 ---|---|---
 |1. Intro to Neural networks | [Questions][1] | [Revise][2]
 |2. Intro to PyTorch | [Questions][3] | [Revise][4]
+|3. Convolutional Neural Network | [Questions][5] | [Revise][6]|
 
 [1]:https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Introduction%20to%20Neural%20Networks/topics.md
 [2]:
 
 [3]:https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Introduction%20to%20pytorch/topics.md
 [4]:
+
+[5]:https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Convolutional%20Neural%20Networks/topics.md
+[6]:
 
 - Introduction to pytorch
 - Convolutional neural networks
