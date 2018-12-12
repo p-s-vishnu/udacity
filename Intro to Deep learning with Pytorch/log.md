@@ -179,4 +179,9 @@ Completed till feature vector
 ***
 ## Day 32:
 
-**Today's progress:** preparing notes for CNN
+**Today's progress:** preparing notes for CNN 1/3
+
+***
+## Day 33:
+
+**Today's progress:** preparing notes for CNN 2/3
