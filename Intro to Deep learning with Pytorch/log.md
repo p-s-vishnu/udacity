@@ -185,3 +185,7 @@ Completed till feature vector
 ## Day 33:
 
 **Today's progress:** preparing notes for CNN 2/3
+***
+## Day 34:
+
+**Today's progress:** preparing notes for CNN 3/3
