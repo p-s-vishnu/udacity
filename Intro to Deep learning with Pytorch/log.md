@@ -189,3 +189,8 @@ Completed till feature vector
 ## Day 34:
 
 **Today's progress:** preparing notes for CNN 3/3
+***
+## Day 35 - 38:
+**Today's progress:** Completed RNN
+
+**Link of work:** [Commit](https://github.com/p-s-vishnu/udacity/commit/e98a69c272b5ce31633e80bca411aa213f9d66b2)
