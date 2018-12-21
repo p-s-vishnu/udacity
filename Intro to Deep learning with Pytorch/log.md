@@ -194,3 +194,7 @@ Completed till feature vector
 **Today's progress:** Completed RNN
 
 **Link of work:** [Commit](https://github.com/p-s-vishnu/udacity/commit/e98a69c272b5ce31633e80bca411aa213f9d66b2)
+
+## Day 39: 
+**Today's progress:** Course completed
+Will start working on final project from tomorrow
