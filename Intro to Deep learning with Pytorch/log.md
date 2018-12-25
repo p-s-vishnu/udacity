@@ -198,3 +198,8 @@ Completed till feature vector
 ## Day 39: 
 **Today's progress:** Course completed
 Will start working on final project from tomorrow
+
+## Day 40: 
+**Today's progress:**
+Final project completed
+**Link of work:** [Flower species identifier](https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Final%20project/Image_Classifier_Project_Modified_v1.ipynb)
