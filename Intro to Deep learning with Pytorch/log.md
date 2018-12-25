@@ -191,15 +191,21 @@ Completed till feature vector
 **Today's progress:** preparing notes for CNN 3/3
 ***
 ## Day 35 - 38:
+
 **Today's progress:** Completed RNN
 
 **Link of work:** [Commit](https://github.com/p-s-vishnu/udacity/commit/e98a69c272b5ce31633e80bca411aa213f9d66b2)
-
+***
 ## Day 39: 
-**Today's progress:** Course completed
-Will start working on final project from tomorrow
 
-## Day 40: 
+**Today's progress:** Course completed, Will start working on final project from tomorrow
+***
+## Day 40:
+
 **Today's progress:**
-Final project completed
+Final project completed. 
+
+**Thoughts:**
+For the past three days I was not able to work on the project, since it is a holiday I could complete it.
+
 **Link of work:** [Flower species identifier](https://github.com/p-s-vishnu/udacity/blob/master/Intro%20to%20Deep%20learning%20with%20Pytorch/Final%20project/Image_Classifier_Project_Modified_v1.ipynb)
